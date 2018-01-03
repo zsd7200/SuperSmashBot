@@ -1,0 +1,38 @@
+```
+Rank            Smasher                Mains
+1               Nairo                  Meta Knight
+1               9B                     Ice Climbers
+3               ZeRo                   Meta Knight
+4               Otori                  Meta Knight
+5               Mew2King               Meta Knight
+6               ESAM                   Pikachu, Ice Climbers
+7               ADHD                   Diddy Kong
+8               Ally                   Snake, Meta Knight
+9               Vinnie                 Ice Climbers
+10              Mikeneko               Marth
+11              Anti                   Meta Knight
+12              Nakat                  Ice Climbers
+13              Tyrant                 Meta Knight
+14              RAIN                   Meta Knight
+15              Mr. R                  Marth
+16              Kakera                 Meta Knight
+17              DEHF                   Falco
+18              Salem                  Zero Suit Samus
+19              Zinoto                 Diddy Kong
+20              Dabuz                  Olimar
+21              Gnes                   Diddy Kong
+22              Leon                   Marth
+23              Denti                  Olimar
+24              MVD                    Snake
+25              FOW                    Meta Knight, Ness
+26              V115                   Zero Suit Samus
+27              Trela                  Lucario
+28              Rich Brown             Olimar
+29              Xzax                   Falco
+30              Shogun                 Snake
+31              Ultimate Razer         Snake
+32              Nick Riddle            Zero Suit Samus
+34              Shaky                  Ness, Zero Suit Samus
+34              Vex Kasrani            King Dedede
+36              MJG                    Toon Link
+```

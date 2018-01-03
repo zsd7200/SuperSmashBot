@@ -1,0 +1,33 @@
+```
+Rank            Smasher                Mains
+71              Lee Martin             Meta Knight, Lucario
+72              X                      Sonic
+73              Illmatic               Peach
+74              Kain                   Wolf
+75              KiraFlax               ROB, Pit
+76              Junebug                Lucario
+77              ScaryLB                Sheik, Zelda
+78              Meekspeedy             Sonic
+78              Swordgard              Ice Climbers
+80              Keitaro                Falco
+81              Kingtoon               Toon Link
+82              K9                     Meta Knight
+83              Sky                    Wario
+84              Coney                  King Dedede
+85              Zeton                  Fox
+86              8BitMan                ROB
+87              SK92                   Falco
+88              Lie                    Diddy Kong
+89              Tin Man                Olimar
+90              Malcolm                Wario
+91              Jtails                 Meta Knight
+92              NEO                    Marth
+93              Pelca                  Falco
+94              McPeePants             Wolf
+95              Master Raven           Meta Knight
+95              Trevonte               Fox
+97              Pink Fresh             Lucas
+98              Chris Fisch            Meta Knight
+99              Bjay                   Meta Knight
+100             Mikeray4               Snake
+```

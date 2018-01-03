@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+26              Machiavelli            Ivysaur
+27              Aero                   Diddy Kong
+28              StereoKiDD             Ness
+29              Ripple                 King Dedede
+30              BaconPancakes          Fox, Diddy Kong
+31              lloD                   Peach
+32              Zhime                  Zelda
+33              Strong Bad             Wario
+34              Boiko                  Ness, Meta Knight
+35              Marshall               Mr. Game & Watch
+36              Sothe                  Ivysaur
+37              Ally                   Ike
+38              Jason Waterfalls       Zero Suit Samus
+39              Aki                    Ness
+40              Luck                   Diddy Kong
+41              Pikmon                 Mr. Game & Watch
+42              Aion                   Sonic
+43              Hero of Time           Link
+44              Kycse                  Charizard
+45              Oracle                 ROB, Zero Suit Samus
+46              XYK                    Luigi
+47              ilovebagelz            Luigi
+48              Blue                   Link
+49              Zen                    Charizard
+50              Shiny Zubat            Yoshi, Luigi
+```

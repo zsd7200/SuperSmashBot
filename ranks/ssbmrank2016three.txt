@@ -1,0 +1,33 @@
+```
+Rank            Smasher                Mains
+71              Kalamazhu              Peach
+72              Darkatma               Sheik, Peach
+73              Lovage                 Fox
+74              Tai                    Marth
+75              Drephen                Sheik
+76              Ka-Master              Luigi
+77              Trulliam               Falco
+78              Frootloop              Falco, Sheik, Fox
+79              Alex19                 Fox
+80              HomeMadeWaffles        Fox, Falco
+81              Milkman                Fox
+82              Arc                    Marth
+83              Reno                   Sheik, Fox
+84              Tafokints              Sheik
+85              Fuzzyness              Fox, Captain Falcon
+86              Kira                   Fox
+87              Ken                    Marth
+88              Mojo                   Fox
+89              Medz                   Fox, Marth
+90              Zanguzen               Falco
+91              Phil                   Fox
+92              Darrell                Samus
+93              NMW                    Captain Falcon
+94              Porkchops              Falco
+95              JFlex                  Sheik, Fox
+96              Vanity Angel           Peach
+97              $mike                  Captain Falcon
+98              Nightmare              Marth
+99              4%                     Jigglypuff
+100             drunksloth             Ice Climbers
+```

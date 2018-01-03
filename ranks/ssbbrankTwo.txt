@@ -1,0 +1,37 @@
+```
+Rank            Smasher                Mains
+37              Seagull Joe            Wolf
+38              SlayerZ                Peach
+39              Will                   Donkey Kong
+40              Bloodcross             Meta Knight, Falco
+41              Dojo                   Meta Knight
+42              Orion                  Meta Knight
+43              Ryo                    Ike
+44              Waymas                 Wario
+45              Seibrik                Meta Knight
+46              Koolaid                Meta Knight, Pit
+46              MikeHAZE               Marth
+48              Atomsk                 King Dedede
+49              ChuDat                 Kirby
+50              TheReflexWonder        Wario
+51              Z                      Pikachu
+52              Shugo                  Falco
+53              HolyNightmare          Meta Knight
+54              False                  Snake
+55              LOE1                   Wario
+56              Toronto Joe            Meta Knight
+57              RedHalberd             Meta Knight
+58              Quiksilver             Zero Suit Samus
+59              Jbandrew               Meta Knight, Luigi
+60              Fatal                  Snake
+61              DeLux                  Ice Climbers, Zero Suit Samus
+62              Player-1               Diddy Kong
+63              Tearbear               Meta Knight
+64              DRN                    Zero Suit Samus
+65              Espy                   Sonic
+66              Shadow                 Meta Knight
+67              Zex                    Meta Knight
+68              StaticManny            Sonic
+69              Kismet                 Falco
+69              Mekos                  Lucas
+```
