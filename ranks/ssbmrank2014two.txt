@@ -1,0 +1,43 @@
+```
+Rank            Smasher                Mains
+36              DEHF                   Falco
+37              HugS                   Samus
+38              Duck                   Samus
+39              DJ Nintendo            Fox
+40              Kalamazhu              Peach
+41              Lord                   Captain Falcon
+42              Cactuar                Fox
+43              Weon-X                 Fox
+44              Darkrain               Captain Falcon
+45              Kage                   Ganondorf
+46              Zanguzen               Falco
+47              SilentSpectre          Captain Falcon
+48              KoreanDJ               Marth, Sheik
+49              SwiftBass              Marth, Fox
+50              ZoSo                   Marth
+51              RaynEX                 Fox
+52              Darkatma               Sheik
+53              Porkchops              Falco
+54              I.B                    Marth
+55              Darc                   Jigglypuff
+56              Swedish Delight        Sheik
+57              OkamiBW                Sheik
+58              Ken                    Marth
+59              VaNz                   Peach, Sheik
+60              Excel Zero             Peach
+61              Darrell                Samus
+62              Slox                   Fox, Captain Falcon
+63              Lambchops              Falco
+64              s0ft                   Jigglypuff
+65              Fuzzyness              Fox
+66              Tafokints              Sheik
+67              Lil Fumi               Fox
+68              Dart!                  Marth
+69              Blea Gelo              Luigi
+70              Redd                   Fox
+71              Hanky Panky            Peach
+72              Remen                  Falco
+73              StriCNYN3              Falco
+74              Cyrain                 Fox, Falco
+75              HomeMadeWaffles        Fox, Falco
+```

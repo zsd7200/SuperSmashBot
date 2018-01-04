@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+76              PikaChad               Pikachu
+77              Reno                   Sheik, Fox
+78              Gahtzu                 Captain Falcon
+79              DoH                    Peach
+80              Eggm                   Fox
+81              ARC                    Marth
+82              Tope                   Sheik
+83              DruggedFox             Fox
+84              Gravy                  Captain Falcon
+85              Tai                    Marth
+86              Lucien                 Sheik
+87              Lord HDL               Marth, Link
+88              Trail                  Ice Climbers, Ganondorf
+89              Scar                   Captain Falcon
+90              Laudandus              Sheik
+91              Toph                   Fox
+92              Alex19                 Fox
+93              Connor                 Fox, Peach
+94              Bizzarro Flame         Ganondorf
+95              Hyprid                 Marth
+96              Az                     Peach
+97              Mojo                   Fox
+98              Milkman                Fox
+99              Frootloop              Falco
+100             ESAM                   Samus
+```

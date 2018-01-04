@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+76              PikaChad               Pikachu
+77              aMSa                   Yoshi
+78              Strawhat Dahean        Marth
+79              Swiftbass              Marth, Fox
+80              Frootloop              Fox
+81              DoH                    Peach
+82              OkamiBW                Sheik
+83              Dart!                  Marth
+84              Vish                   Captain Falcon
+85 (tie)        Reno                   Sheik, Fox
+85 (tie)        Sion                   Falco
+87 (tie)        DEHF                   Falco
+87 (tie)        Phil                   Fox
+89              Trail                  Ice Climbers
+90              Bob$                   Marth
+91              Kounotori              Falco
+92              Stab                   Falco
+93              ESAM                   Samus
+94              G$                     Falco, Marth
+95              Toph                   Fox
+96              Bizzarro Flame         Ganondorf
+97              Hyprid                 Marth
+98              Vist                   Luigi
+99              PKMVodka               Marth
+100             Ken                    Marth
+```

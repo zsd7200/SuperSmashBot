@@ -1,0 +1,38 @@
+```
+Rank            Smasher                Mains
+36              Eddy                   Luigi
+37              Cactuar                Marth, Fox
+38              Fiction                Marth, Fox
+39              Bladewise              Peach
+40              Mike Haze              Fox
+41              DJ Nintendo            Fox, Pikachu
+42              Santiago               Fox
+43              Tekk                   Jigglypuff
+44              Kage                   Ganondorf, Captain Falcon
+45              Gahtzu                 Captain Falcon
+46              KJH                    Fox
+47              Overtriforce           Sheik
+48              Android                Sheik
+49              Frootloop              Falco
+50              Kels                   Fox, Sheik
+51              Ryan Ford              Fox
+52              Ken                    Marth
+53              Amsah                  Sheik
+54              Chillin                Fox, Falco
+55              Prince Abu             Jigglypuff
+56              Darkatma               Sheik
+57              Kalamazhu              Peach, Marth
+58              n0ne                   Captain Falcon, Ganondorf
+59              Laudandus              Sheik
+60              Kira                   Sheik
+61              Darkrain               Captain Falcon
+62              Gravy                  Captain Falcon
+63              Blea Gelo              Luigi
+64              HomeMadeWaffles        Fox, Falco
+65              Dart!                  Marth
+66              Jeapie                 Captain Falcon
+67              Alex19                 Fox
+68              Zanguzen               Falco
+69              Slox                   Fox, Captain Falcon
+70              Redd                   Fox, Falco
+```

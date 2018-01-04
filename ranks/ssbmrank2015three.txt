@@ -1,0 +1,33 @@
+```
+Rank            Smasher                Mains
+71              ZoSo                   Marth
+72              Connor                 Fox, Peach
+73              Zgetto                 Fox
+74              Reno                   Sheik, Fox
+75              Matt                   Fox, Falco
+76              Ralph                  Falco
+77              reaper                 Marth
+78              lloD                   Peach
+79              SUNG475                Marth
+80              Tafokints              Sheik
+81              ESAM                   Samus
+82              S0ft                   Jigglypuff
+83              Darrell                Samus
+84              dizzkidboogie          Ice Climbers
+85              $mike                  Captain Falcon
+86              SwiftBass              Marth
+87              Arc                    Marth
+88              Rudolph                Marth, Fox, Sheik
+89              Az                     Peach
+90              Tai                    Marth
+91              Mafia                  Peach, Captain Falcon
+92              Phil                   Fox
+93              Porkchops              Falco, Fox
+94              I.B                    Marth
+95              OkamiBW                Sheik
+96              Crush                  Fox
+97              Toph                   Fox
+98              Bizzarro Flame         Ganondorf
+99              Captain Smuckers       Captain Falcon
+100             DoH                    Peach
+```

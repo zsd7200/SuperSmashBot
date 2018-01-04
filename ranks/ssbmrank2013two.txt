@@ -1,0 +1,41 @@
+```
+Rank            Smasher                Mains
+38              th0rn                  Falco
+39              Darkrain               Captain Falcon
+40              Cactuar                Fox, Marth
+41              DJ Nintendo            Fox, Samus, Bowser
+42              Eddy                   Luigi
+43              Lovage                 Fox
+44              Weon-X                 Fox
+45              Darc                   Jigglypuff
+46              Darkatma               Sheik, Peach
+47              HugS                   Samus
+48              Nintendude             Ice Climbers
+49              Lucien                 Sheik
+50              Jman                   Fox
+51              SilentSpectre          Captain Falcon
+52              Kels                   Fox
+53              Redd                   Fox
+54              Eggm                   Fox
+55              HomeMadeWaffles        Falco
+56              Tope                   Sheik
+57              Cyrain                 Fox, Falco
+58              Abate                  Luigi
+59              Fuzzyness              Fox
+60              Connor                 Peach, Fox
+61              Tafokints              Sheik
+62              Scar                   Captain Falcon
+63              The Moon               Marth
+64              Darrell                Samus
+65              Gucci                  Captain Falcon
+66              Swedish Delight        Sheik
+67              Blunted_Object10       Falco
+68              Zoso                   Marth
+69              Bam                    Falco
+70              StriCNYN3              Falco
+71              Tai                    Marth
+72              Sung666                Falco, Sheik
+73              I.B                    Marth
+74              Eggz                   Fox
+75              Duck                   Samus
+```

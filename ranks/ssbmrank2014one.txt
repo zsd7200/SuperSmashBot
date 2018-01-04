@@ -1,0 +1,38 @@
+```
+Rank            Smasher                Mains
+1               Mango                  Fox, Falco
+2               Armada                 Peach
+3               PPMD                   Falco, Marth
+4               Mew2King               Sheik, Marth, Fox
+5               Hungrybox              Jigglypuff
+6               Leffen                 Fox
+7               Axe                    Pikachu
+8               Hax                    Fox
+9               Westballz              Falco, Fox
+10              Colbol                 Fox
+11              Fly Amanita            Ice Climbers
+12              Lucky                  Fox
+13              PewPewU                Marth
+14              Shroomed               Sheik, Dr. Mario
+15              Silent Wolf            Fox
+16              Plup                   Samus
+17              Fiction                Fox
+18              S2J                    Captain Falcon
+19              Ice                    Fox, Sheik
+20              SFAT                   Fox
+21              Zhu                    Falco
+22              aMSa                   Yoshi
+23              KirbyKaze              Sheik
+24              Nintendude             Ice Climbers
+25              MacD                   Peach
+26              Chillin                Fox
+27              Javi                   Fox
+28              Kels                   Fox
+29              Wizzrobe               Captain Falcon
+30              The Moon               Marth
+31              Eddy                   Luigi
+32              ChuDat                 Ice Climbers
+33              Bladewise              Peach
+34              Abate                  Luigi
+35              ZeRo                   Fox
+```
