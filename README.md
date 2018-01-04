@@ -1,6 +1,8 @@
 # Super Smash Bot
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
+##### The actual .js file for the bot will be posted as soon as the rankings are fully implemented.
+
 A Discord bot for competitive Super Smash Bros. content and for fun.
 
 Programmed in JavaScript using [Discord.js 11.2.1](https://discord.js.org).
