@@ -1,7 +1,7 @@
 # Super Smash Bot
 ![License](https://img.shields.io/badge/License-GPLv3-blue.svg)
 
-##### The actual .js file for the bot will be posted as soon as the rankings are fully implemented.
+##### This is my first attempt at writing a bot for anything, as well as my first time using Discord.js. Creative criticism is welcomed, as I would like to get better with this kind of stuff.
 
 A Discord bot for competitive Super Smash Bros. content and for fun.
 
@@ -24,3 +24,9 @@ Super Smash Bot, also known as Peach, can pull top player information from [SSBW
   * These rankings are taken from [SSBWiki](https://www.ssbwiki.com/), then manually formatted to look nice with a bit less information.
   * For any game where the year requested is unavailable, the latest available rankings will be shown.
   * Running this command without parameters will show acceptable parameters for each game.
+  
+  #### References
+  * [Discord.js Documentation](https://discord.js.org/#/docs/main/stable/general/welcome)
+  * [The Perfect Lil' Bot](https://gist.github.com/eslachance/3349734a98d30011bb202f47342601d3) by eslachance
+  * [How To Use node.js, request and cheerio to Set Up Simple Web-Scraping](https://www.digitalocean.com/community/tutorials/how-to-use-node-js-request-and-cheerio-to-set-up-simple-web-scraping) by DigitalOcean
+  * [Getting the bot to run 24/7 using Amazon EC2](http://shiffman.net/a2z/bot-ec2/) by Daniel Shiffman
