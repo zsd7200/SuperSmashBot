@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+26              Mew2King               Cloud
+27              ESAM                   Pikachu
+28              Fatality               Captain Falcon
+29              Samsora                Peach
+30              6WX                    Sonic
+31              ScAtt                  Mega Man
+32              Dath                   Robin
+33              falln                  Rosalina & Luma
+34              Tyrant                 Meta Knight, Sheik, Diddy Kong
+35              Vinnie                 Sheik, Rosalina & Luma
+36              Nietono                Diddy Kong
+37              dyr                    Diddy Kong
+38              Day                    Lucario
+39              Pugwest                Marth
+40              Saj                    Bayonetta
+41              False                  Sheik, Marth, Ryu
+42              Trela                  Ryu
+43              Wrath                  Sonic
+44              Darkshad               Ryu
+45              Locus                  Ryu
+46              Ryo                    Ike, Corrin, Roy
+47              MVD                    Diddy Kong
+48              Kirihara               Rosalina & Luma
+49              Taiheita               Lucas
+50              Ned                    Cloud
+```

@@ -1,0 +1,30 @@
+```
+Rank            Smasher                Mains
+1               ZeRo                   Diddy Kong, Lucina, Sheik
+2               MkLeo                  Cloud, Marth, Meta Knight
+3               Nairo                  Zero Suit Samus, Bowser, Lucina
+4               Dabuz                  Rosalina & Luma, Olimar
+5               Ally                   Mario
+6               Larry Lurr             Fox, Donkey Kong
+7               CaptainZack            Bayonetta, Peach, Wii Fit Trainer
+8               komorikiri             Cloud, Sonic, Marth
+9               Mr. R                  Sheik, Cloud
+10              Abadango               Mewtwo, Bayonetta, Meta Knight
+11              Salem                  Bayonetta, Samus
+12              Tweek                  Cloud, Donkey Kong, Bayonetta
+13              VoiD                   Sheik, Fox
+14              Marss                  Zero Suit Samus, Lucario
+15              Fatality               Captain Falcon, Mario
+16              KEN                    Sonic
+17              Ranai                  Villager, Lucina
+18              ESAM                   Pikachu, Samus, Mewtwo
+19              Kirihara               Rosalina & Luma
+20              Zinoto                 Diddy Kong
+21              ANTi                   Mario, Cloud, Zero Suit Samus
+22              Locus                  Ryu
+23              9B                     Bayonetta
+24              Samsora                Peach, Rosalina & Luma
+25              Elegant                Luigi, Mario, Mr. Game & Watch
+26              Tsu-                   Lucario, Ryu
+27              Kameme                 Mega Man, Sheik, Yoshi
+```

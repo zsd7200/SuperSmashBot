@@ -1,0 +1,31 @@
+```
+Rank            Smasher                Mains
+28              falln                  Rosalina & Luma, Mii Gunner
+29              MVD                    Diddy Kong, Mario, Cloud
+30              Mr. E                  Marth, Lucina, Cloud
+31              6WX                    Sonic
+32              T                      Link
+33              Shuton                 Olimar
+34              Raito                  Duck Hunt
+35              Earth                  Pit, Corrin
+36              HIKARU                 Donkey Kong, Bowser
+37              Ned                    Cloud
+38              Rich Brown             Mewtwo, Olimar
+39              Myran                  Olimar
+40              Manny                  Sonic, Roy
+41              ScAtt                  Mega Man, Cloud
+42              NAKAT                  Fox, Ness, Lucina
+43              Nietono                Sheik, Diddy Kong
+44              Javi                   Cloud, Sheik
+45              AC                     Meta Knight, Falco
+46              WaDi                   Mewtwo, ROB
+47              Edge                   Diddy Kong, Sheik
+48              JK                     Bayonetta
+49              Choco                  Zero Suit Samus
+50              FOW                    Ness
+51              K9sbruce               Diddy Kong, Sheik
+51              Shoyo James            Diddy Kong, Luigi
+51              Trela                  Ryu
+51              Tyrant                 Meta Knight, Sheik, Diddy Kong
+51              Wrath                  Sonic
+```

@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+1               ZeRo                   Diddy Kong, Sheik
+2               Nairo                  Zero Suit Samus
+3               Dabuz                  Rosalina & Luma
+4               Mr.R                   Sheik
+5               Abadango               Mewtwo, Meta Knight
+6               Ally                   Mario
+7               Larry Lurr             Fox, Donkey Kong
+8               VoiD                   Sheik, Fox
+9               Ranai                  Villager
+10              ANTi                   Mario, Zero Suit Samus, Sheik
+11              Komorikiri             Cloud, Sonic
+12              FOW                    Ness
+13              Marss                  Zero Suit Samus
+14              ESAM                   Pikachu, Corrin
+15              Tweek                  Cloud
+16              Shaky                  Ness
+17              9B                     Bayonetta
+18              Vinnie                 Sheik
+19              Leo                    Meta Knight, Cloud, Marth
+20              6WX                    Sonic
+21              MVD                    Diddy Kong
+22              Tyrant                 Meta Knight
+23              Zinoto                 Diddy Kong
+24              Hyuga                  Toon Link
+25              Trela                  Ryu
+```
