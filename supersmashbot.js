@@ -71,11 +71,15 @@ const memeResponses = [
 client.on('ready', () => {
 	loadRanks(); // load rank txt files
 	client.user.setGame("Melee! | ssb help"); // set her game upon login
-	console.log('Did I win?'); // appears on console when the bot has been run correctly
+	console.log('Did I win?');
 });
 
 // create an event listener for messages
 client.on('message', message => {
+	
+	// It's good practice to ignore other bots. This also makes your bot ignore itself
+	// and not get into a spam loop (we call that "botception").
+	if(message.author.bot) return;
 	
 	// See if any memes have been sent
 	for (i = 0; i < memeMessages.length; i++)
@@ -135,11 +139,8 @@ client.on('message', message => {
 		search(searchTerm, opts, function(err, results) {
 			if(err) return console.log(err); // print error in console
 			
-			if (args[0] != "[search") // this if is to make sure the bot isn't reacting to itself offering help
-			{
-				if(results[0] != undefined) return message.channel.send(results[0].link); // return link if found
-				else return message.channel.send(cannotFind); // if nothing is found, print cannotFind
-			}
+			if(results[0] != undefined) return message.channel.send(results[0].link); // return link if found
+			else return message.channel.send(cannotFind); // if nothing is found, print cannotFind
 		});
 	}
 	
@@ -157,11 +158,8 @@ client.on('message', message => {
 		search(searchTerm, opts, function(err, results) {
 			if(err) return console.log(err);
 			
-			if (args[0] != "[search")
-			{
-				if(results[0] != undefined) return message.channel.send(results[0].link);
-				else return message.channel.send(cannotFind);
-			}
+			if(results[0] != undefined) return message.channel.send(results[0].link);
+			else return message.channel.send(cannotFind);
 		});
 	}
 	
@@ -179,11 +177,8 @@ client.on('message', message => {
 		search(searchTerm, opts, function(err, results) {
 			if(err) return console.log(err);
 			
-			if (args[0] != "[search")
-			{
-				if(results[0] != undefined) return message.channel.send(results[0].link);
-				else return message.channel.send(cannotFind);
-			}
+			if(results[0] != undefined) return message.channel.send(results[0].link);
+			else return message.channel.send(cannotFind);
 		});
 	}
 	
@@ -201,11 +196,8 @@ client.on('message', message => {
 		search(searchTerm, opts, function(err, results) {
 			if(err) return console.log(err);
 			
-			if (args[0] != "[search")
-			{
-				if(results[0] != undefined) return message.channel.send(results[0].link);
-				else return message.channel.send(cannotFind);
-			}
+			if(results[0] != undefined) return message.channel.send(results[0].link);
+			else return message.channel.send(cannotFind);
 		});
 	}
 	
@@ -223,11 +215,8 @@ client.on('message', message => {
 		search(searchTerm, opts, function(err, results) {
 			if(err) return console.log(err);
 			
-			if (args[0] != "[search")
-			{
-				if(results[0] != undefined) return message.channel.send(results[0].link);
-				else return message.channel.send(cannotFind);
-			}
+			if(results[0] != undefined) return message.channel.send(results[0].link);
+			else return message.channel.send(cannotFind);
 		});
 	}
 	
@@ -283,7 +272,7 @@ client.on('message', message => {
 			
 			// if there isn't a webpage to retrieve
 			 // this if's condition is to make sure the bot isn't reacting to itself offering help
-			else if (args[0] != "[smashtag]") return message.channel.send(cannotFind + "\nIf your Smasher has more than one capital letter in their tag, try properly capitalizing!");
+			else return message.channel.send(cannotFind + "\nIf your Smasher has more than one capital letter in their tag, try properly capitalizing!");
 		});
 	}
 
