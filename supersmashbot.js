@@ -109,7 +109,7 @@ client.on('message', message => {
     }
     
     // if the command is 'vod' bot will return first result on youtube
-    if(command === "vod") 
+    else if(command === "vod") 
     {
         if (args[0] == null) return message.channel.send("ssb vod [search term]");
         
@@ -127,7 +127,7 @@ client.on('message', message => {
     // exclusively search grsmash
     // gr, gr4, pickle, yeet, and drag are all very similar, barring channel IDs and help dialogues
     // gr is more heavily commented than the rest, but all the comments are applicable to other commands listed above
-    if(command === "gr")
+    else if(command === "gr")
     {
         // help dialouge
         if (args[0] == null) return message.channel.send("ssb gr [search term]");
@@ -148,7 +148,7 @@ client.on('message', message => {
     }
     
     // exclusively search grtr4sh
-    if(command === "gr4")
+    else if(command === "gr4")
     {
         if (args[0] == null) return message.channel.send("ssb gr4 [search term]");
         
@@ -167,7 +167,7 @@ client.on('message', message => {
     }
     
     // exclusively search mr. pickle
-    if(command === "pickle")
+    else if(command === "pickle")
     {
         if (args[0] == null) return message.channel.send("ssb pickle [search term]");
         
@@ -186,7 +186,7 @@ client.on('message', message => {
     }
     
     // exclusively search yeet smash
-    if(command === "yeet")
+    else if(command === "yeet")
     {
         if (args[0] == null) return message.channel.send("ssb yeet [search term]");
         
@@ -205,7 +205,7 @@ client.on('message', message => {
     }
     
     // exclusively search dragon smash
-    if(command === "drag")
+    else if(command === "drag")
     {
         if (args[0] == null) return message.channel.send("ssb drag [search term]");
         
@@ -224,7 +224,7 @@ client.on('message', message => {
     }
 	 
     // exclusively search vgbc highlights
-    if(command === "vgbc")
+    else if(command === "vgbc")
     {
         if (args[0] == null) return message.channel.send("ssb vgbc [search term]");
         
@@ -243,7 +243,7 @@ client.on('message', message => {
     }
     
     // turnip pull simulator
-    if(command === "turnip")
+    else if(command === "turnip")
     {
         // get a random number from 1 - 58 and set the default turnip
         let pull = Math.floor((Math.random() * 58) + 1);
@@ -264,7 +264,7 @@ client.on('message', message => {
     }
     
     // get info on a smasher from SSBWiki
-    if(command === "smasher")
+    else if(command === "smasher")
     {
         // help dialogue
         if (args[0] == null) return message.channel.send("ssb smasher [smashtag]");
@@ -299,7 +299,7 @@ client.on('message', message => {
     }
 
     // get official player rankings from locally stored files
-    if(command === "rank")
+    else if(command === "rank")
     {
         // help dialogue
         if (args[0] == null) return message.channel.send("ssb rank [game] [year]\n\nGames:\n64, smash64, ssb\nmelee, ssbm\nbrawl, ssbb\nprojectm, pm\nsmash4, sm4sh\n\nSSBMRank Years: 2013 - 2016\nSmash 4 PGR Versions: 1 - 4");
