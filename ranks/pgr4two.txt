@@ -1,0 +1,31 @@
+```
+Rank            Smasher                Mains
+28              Mr. E                  Lucina, Marth
+29              Kirihara               Rosalina & Luma
+30              Konga                  Donkey Kong
+31              Zinoto                 Diddy Kong
+32              Raito                  Duck Hunt
+33              NAKAT                  Fox, Ness, Donkey Kong
+34              Tsu-                   Lucario, Ryu
+35              Charliedaking          Fox
+36              Choco                  Zero Suit Samus
+37              JK                     Bayonetta
+38              Fatality               Captain Falcon
+39              dyr                    Diddy Kong
+40              Tyroy                  Bayonetta, Meta Knight
+41              falln                  Rosalina & Luma
+42              Shoyo James            Diddy Kong, Luigi
+43              6WX                    Sonic
+44              Kameme                 Mega Man, Sheik, Cloud
+45              Ryuga                  Corrin, Ike
+46              Vinnie                 Sheik, Rosalina & Luma
+47              Light                  Fox
+48              K9sbruce               Diddy Kong, Sheik
+49              Zenyou                 Mario
+50              AC                     Meta Knight, Falco
+51              Eon                    Fox
+51              Javi                   Sheik, Cloud
+51              Locus                  Ryu, Bayonetta
+51              Luhtie                 Zero Suit Samus
+51              Stroder                Greninja, Roy
+```
