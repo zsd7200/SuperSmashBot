@@ -17,6 +17,9 @@ Super Smash Bot, also known as Peach, can pull top player information from [SSBW
   * 'gr' searches [GRSmash](https://www.youtube.com/channel/UCTVVDt-QGxBTOqPOQuK6Y-g), 'gr4' searches [GRTr4sh](https://www.youtube.com/channel/UChPE_pVN58afOg4Dh4vznsA), 'pickle' searches [Mr. Pickle](https://www.youtube.com/user/MrPickleGaming1), 'yeet' searches [YEET Smash](https://www.youtube.com/channel/UCVFWJkN7L45x8gZTMXu2UWw), 'drag' searches [Dragon Smash](https://www.youtube.com/user/RedAxel17), 'vgbc' searches [VGBC Highlights](https://www.youtube.com/channel/UCGOP2bXVg04Jvbu8tuiPoNg) and 'vod' searches all of YouTube and returns the first result. The 'vod' parameter for this command should find the correct match you are searching for, as long as you are specific enough with your search term.
 * ssb turnip
   * Uses a random number generator with custom emotes to pull a [Vegetable](https://www.ssbwiki.com/Vegetable). Probabilities are taken from [this](https://www.ssbwiki.com/images/0/04/PeachVegetableCompleteOddsTableSSBB.jpg) odds table from Super Smash Bros. Brawl. Mr. Saturn, Bob-Ombs, and Beam Swords are not yet available to pull.
+* ssb meme
+  * Displays a list of messages that the bot will react to if listening for memes is turned on.
+  * Peach will start listening for memes with the command "ssb meme on" and will stop listening for memes with the command "ssb meme off".
 * ssb smasher [smashtag]
   * Uses a combination of [Request](https://github.com/request/request) and [Cheerio](https://cheerio.js.org/) to grab the first paragraph of a Smasher's biography from [SSBWiki](https://www.ssbwiki.com/).
 * ssb rank [game] [year]
