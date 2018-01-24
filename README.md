@@ -19,7 +19,6 @@ Super Smash Bot, also known as Peach, can pull top player information from [SSBW
   * Uses a random number generator with custom emotes to pull a [Vegetable](https://www.ssbwiki.com/Vegetable). Probabilities are taken from [this](https://www.ssbwiki.com/images/0/04/PeachVegetableCompleteOddsTableSSBB.jpg) odds table from Super Smash Bros. Brawl. Mr. Saturn, Bob-Ombs, and Beam Swords are not yet available to pull.
 * ssb meme
   * Displays a list of messages that the bot will react to if listening for memes is turned on.
-  * Peach will start listening for memes with the command "ssb meme on" and will stop listening for memes with the command "ssb meme off".
 * ssb smasher [smashtag]
   * Uses a combination of [Request](https://github.com/request/request) and [Cheerio](https://cheerio.js.org/) to grab the first paragraph of a Smasher's biography from [SSBWiki](https://www.ssbwiki.com/).
 * ssb rank [game] [year]
