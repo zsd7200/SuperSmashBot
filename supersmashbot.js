@@ -8,6 +8,8 @@ const fs = require('fs');
 // declare rank variables
 let smash64leaguerankingsOne;
 let smash64leaguerankingsTwo;
+let smash64leaguerankings2017one;
+let smash64leaguerankings2017two;
 
 let ssbmrank2013one;
 let ssbmrank2013two;
@@ -21,13 +23,19 @@ let ssbmrank2015three;
 let ssbmrank2016one;
 let ssbmrank2016two;
 let ssbmrank2016three;
+let ssbmrank2017one;
+let ssbmrank2017two;
+let ssbmrank2017three;
 
 let ssbbrankOne;
 let ssbbrankTwo;
 let ssbbrankThree;
+let ssbbrank1617;
 
 let pmrankOne;
 let pmrankTwo;
+let pmrank17one;
+let pmrank17two;
 
 let pgr1one;
 let pgr1two;
@@ -105,7 +113,7 @@ client.on('message', message => {
     // display help text
     if(command === "help")
     {
-        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:397873462049374219>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nSmash 64, Brawl, and PM each only have one ranking.\nNo matter what year you put in, I can only give you one result.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
+        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:397873462049374219>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb meme' to see a list of messages that I'll respond to in a funny way!\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
     }
     
     // if the command is 'vod' bot will return first result on youtube
@@ -302,18 +310,25 @@ client.on('message', message => {
     else if(command === "rank")
     {
         // help dialogue
-        if (args[0] == null) return message.channel.send("ssb rank [game] [year]\n\nGames:\n64, smash64, ssb\nmelee, ssbm\nbrawl, ssbb\nprojectm, pm\nsmash4, sm4sh\n\nSSBMRank Years: 2013 - 2016\nSmash 4 PGR Versions: 1 - 4");
+        if (args[0] == null) return message.channel.send("ssb rank [game] [year]\n\nGames:\n64, smash64, ssb\nmelee, ssbm\nbrawl, ssbb\nprojectm, pm\nsmash4, sm4sh\n\n64 League Rankings Years: 2016 - 2017\nSSBMRank Years: 2013 - 2017\nSSBBRank Years: 2014, 2016 - 2017\nPMRank Years: 2016 - 2017\nSmash 4 PGR Versions: 1 - 4");
         
         let game = args[0].toLowerCase();
         let year = args[1];
         
         if (args[0] != null)
         {
-            if (game == "64" || game == "smash64" || game == "ssb")
+            if ((game == "64" || game == "smash64" || game == "ssb") && year == "2016")
             {
                 message.channel.send("64 League Rankings (2016)");
                 message.channel.send(smash64leaguerankingsOne);
                 return message.channel.send(smash64leaguerankingsTwo);
+            }
+			
+            else if ((game == "64" || game == "smash64" || game == "ssb")) // checking for year at the moment is unnecessary, as this is the latest yearly ranking
+            {
+                message.channel.send("64 League Rankings (2017)");
+                message.channel.send(smash64leaguerankings2017one);
+                return message.channel.send(smash64leaguerankings2017two);
             }
             
             else if ((game == "melee" || game == "ssbm") && year == "2013")
@@ -339,8 +354,8 @@ client.on('message', message => {
                 message.channel.send(ssbmrank2015two);
                 return message.channel.send(ssbmrank2015three);
             }
-            
-            else if ((game == "melee" || game == "ssbm")) // checking for year at the moment is unnecessary, as this is the latest yearly ranking
+			
+			else if ((game == "melee" || game == "ssbm") && year == "2016")
             {
                 message.channel.send("2016 SSBMRank");
                 message.channel.send(ssbmrank2016one);
@@ -348,19 +363,40 @@ client.on('message', message => {
                 return message.channel.send(ssbmrank2016three);
             }
             
-            else if (game == "brawl" || game == "ssbb")
+            else if ((game == "melee" || game == "ssbm")) // checking for year at the moment is unnecessary, as this is the latest yearly ranking
+            {
+                message.channel.send("2017 SSBMRank");
+                message.channel.send(ssbmrank2017one);
+                message.channel.send(ssbmrank2017two);
+                return message.channel.send(ssbmrank2017three);
+            }
+            
+            else if ((game == "brawl" || game == "ssbb") && year == "2014")
             {
                 message.channel.send("2014 SSBBRank");
                 message.channel.send(ssbbrankOne);
                 message.channel.send(ssbbrankTwo);
                 return message.channel.send(ssbbrankThree);
             }
+			
+            else if ((game == "brawl" || game == "ssbb")) // checking for year at the moment is unnecessary, as this is the latest ranking
+            {
+                message.channel.send("2016 - 2017 SSBBRank");
+                return message.channel.send(ssbbrank1617);
+            }
             
-            else if (game == "projectm" || game == "pm")
+            else if ((game == "projectm" || game == "pm") && year == "2016")
             {
                 message.channel.send("2016 PMRank");
                 message.channel.send(pmrankOne);
                 return message.channel.send(pmrankTwo);
+            }
+			
+            else if ((game == "projectm" || game == "pm")) // checking for year at the moment is unnecessary, as this is the latest yearly ranking
+            {
+                return message.channel.send("2017 PMRank");
+                //message.channel.send(pmrank17one);
+                //return message.channel.send(pmrank17two);
             }
             
             else if ((game == "smash4" || game == "sm4sh") && year == "1")
@@ -384,7 +420,7 @@ client.on('message', message => {
                 return message.channel.send(pgr3two);
             }
             
-            else if ((game == "smash4" || game == "sm4sh"))
+            else if ((game == "smash4" || game == "sm4sh")) // checking for PGR at the moment is unnecessary, as this is the latest ranking
             {
                 message.channel.send("Panda Global Ranking v4 (July - December 2017)");
                 message.channel.send(pgr4one);
@@ -397,14 +433,38 @@ client.on('message', message => {
             }
         }
     }
+	
+	// show all meme messages
+	else if (command === "meme")
+	{
+		// create a variable to store all memes
+		let allMemes = "";
+		
+		// tell the users what this command is used for
+		message.channel.send("If you say any of these things, I'll respond to you! (Case insensitive, but punctuation is important!");
+		
+		// loop through memeMessages
+		for (i = 0; i < memeMessages.length; i++)
+		{
+			// add them to the allMemes variable
+			allMemes += memeMessages[i] + "\n";
+		}
+		
+		// print it out!
+		return message.channel.send(allMemes);
+	}
 });
 
 // function to load the ranks
 function loadRanks()
 {
-    // 64 league rankings
+    // 2016 64 league rankings
     smash64leaguerankingsOne = fs.readFileSync("ranks/smash64leaguerankingsOne.txt", {"encoding": "utf-8"});
     smash64leaguerankingsTwo = fs.readFileSync("ranks/smash64leaguerankingsTwo.txt", {"encoding": "utf-8"});
+	
+	// 2017 64 league rankings
+    smash64leaguerankings2017one = fs.readFileSync("ranks/smash64leaguerankings2017one.txt", {"encoding": "utf-8"});
+    smash64leaguerankings2017two = fs.readFileSync("ranks/smash64leaguerankings2017two.txt", {"encoding": "utf-8"});
     
     // 2013 ssbm rank
     ssbmrank2013one = fs.readFileSync("ranks/ssbmrank2013one.txt", {"encoding": "utf-8"});
@@ -425,15 +485,27 @@ function loadRanks()
     ssbmrank2016one = fs.readFileSync("ranks/ssbmrank2016one.txt", {"encoding": "utf-8"});
     ssbmrank2016two = fs.readFileSync("ranks/ssbmrank2016two.txt", {"encoding": "utf-8"});
     ssbmrank2016three = fs.readFileSync("ranks/ssbmrank2016three.txt", {"encoding": "utf-8"});
+	
+    // 2017 ssbm rank
+    ssbmrank2017one = fs.readFileSync("ranks/ssbmrank2017one.txt", {"encoding": "utf-8"});
+    ssbmrank2017two = fs.readFileSync("ranks/ssbmrank2017two.txt", {"encoding": "utf-8"});
+    ssbmrank2017three = fs.readFileSync("ranks/ssbmrank2017three.txt", {"encoding": "utf-8"});
 
-    // ssbbrank
+    // 2014 ssbbrank
     ssbbrankOne = fs.readFileSync("ranks/ssbbrankOne.txt", {"encoding": "utf-8"});
     ssbbrankTwo = fs.readFileSync("ranks/ssbbrankTwo.txt", {"encoding": "utf-8"});
     ssbbrankThree = fs.readFileSync("ranks/ssbbrankThree.txt", {"encoding": "utf-8"});
+	
+	// 2016 - 2017 ssbbrank
+    ssbbrank1617 = fs.readFileSync("ranks/ssbbrank1617.txt", {"encoding": "utf-8"});
     
-    // pmrank
+    // 2016 pmrank
     pmrankOne = fs.readFileSync("ranks/pmrankOne.txt", {"encoding": "utf-8"});
     pmrankTwo = fs.readFileSync("ranks/pmrankTwo.txt", {"encoding": "utf-8"});
+	
+    // 2017 pmrank
+    //pmrank17one = fs.readFileSync("ranks/pmrank17one.txt", {"encoding": "utf-8"});
+    //pmrank17rwo = fs.readFileSync("ranks/pmrank17two.txt", {"encoding": "utf-8"});
     
     // pgr v1
     pgr1one = fs.readFileSync("ranks/pgr1one.txt", {"encoding": "utf-8"});
