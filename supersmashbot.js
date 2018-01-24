@@ -64,9 +64,6 @@ const prefix = 'ssb ';
 // create cannot find string
 const cannotFind = "I'm sorry, I can't find anything... <:turnipstitch:397873462330523648>";
 
-// create meme bool
-let meme = false;
-
 // set a few messages to check for before checking for the ssb prefix
 // on the version of the bot I have running, there are a lot more of these
 const memeMessages = [
@@ -119,7 +116,7 @@ client.on('message', message => {
     // display help text
     if(command === "help")
     {
-        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:397873462049374219>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb meme on' to turn on listening for memes! After you've done that, you can see a list of what I will respond to by typing 'ssb meme'.\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
+        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:397873462049374219>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb meme' to see a list of what meme messages I will respond to!\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
     }
     
     // if the command is 'vod' bot will return first result on youtube
@@ -443,45 +440,21 @@ client.on('message', message => {
 	// show all meme messages
 	else if (command === "meme")
 	{
-		// display a message if memes are off
-		if (args[0] == null && meme == false)
+		// create a variable to store all memes
+		let allMemes = "";
+
+		// tell the users what this command is used for
+		message.channel.send("If you say any of these things, I'll respond to you! (Case insensitive, but punctuation is important!");
+		
+		// loop through memeMessages
+		for (i = 0; i < memeMessages.length; i++)
 		{
-			return message.channel.send("I'm currently not listening for any memes!\nType 'ssb meme on' to listen!");
+			// add them to the allMemes variable
+			allMemes += memeMessages[i] + "\n";
 		}
 		
-		// if memes are on, display them
-		else if (args[0] == null && meme == true)
-		{
-			// create a variable to store all memes
-			let allMemes = "";
-			
-			// tell the users what this command is used for
-			message.channel.send("If you say any of these things, I'll respond to you! (Case insensitive, but punctuation is important!");
-			
-			// loop through memeMessages
-			for (i = 0; i < memeMessages.length; i++)
-			{
-				// add them to the allMemes variable
-				allMemes += memeMessages[i] + "\n";
-			}
-			
-			// print it out!
-			return message.channel.send(allMemes);
-		}
-		
-		// if the user wants to turn on the memes
-		else if (args[0] == "on")
-		{
-			meme = true;
-			return message.channel.send("Now listening for memes!");
-		}
-		
-		// if the user wants to turn off the memes
-		else if (args[0] == "off")
-		{
-			meme = false;
-			return message.channel.send("No longer listening for memes!");
-		}
+		// print it out!
+		return message.channel.send(allMemes);
 	}
 });
 
