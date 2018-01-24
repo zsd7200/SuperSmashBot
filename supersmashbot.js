@@ -93,13 +93,10 @@ client.on('message', message => {
     if(message.author.bot) return;
     
     // See if any memes have been sent
-	if (meme == true)
+	for (i = 0; i < memeMessages.length; i++)
 	{
-		for (i = 0; i < memeMessages.length; i++)
-		{
-			// if any known memes have been sent, respond
-			if(message.content.toLowerCase() == memeMessages[i]) return message.channel.send(memeResponses[i]);
-		}
+		// if any known memes have been sent, respond
+		if(message.content.toLowerCase() == memeMessages[i]) return message.channel.send(memeResponses[i]);
 	}
     
     // Otherwise ignore any message that does not start with the ssb prefix, 
