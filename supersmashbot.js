@@ -441,7 +441,7 @@ client.on('message', message => {
 		let allMemes = "";
 
 		// tell the users what this command is used for
-		message.channel.send("If you say any of these things, I'll respond to you! (Case insensitive, but punctuation is important!");
+		message.channel.send("If you say any of these things, I'll respond to you! (Case insensitive, but punctuation is important!)");
 		
 		// loop through memeMessages
 		for (i = 0; i < memeMessages.length; i++)
