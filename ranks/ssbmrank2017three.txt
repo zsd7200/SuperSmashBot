@@ -1,0 +1,37 @@
+```
+Rank            Smasher                Mains
+71              Eddy                   Luigi
+72              drunksloth             Ice Climbers
+73              Cal                    Fox
+74              AbsentPage             Fox, Sheik, Marth
+75              King Momo              Falco
+76              DJ Nintendo            Fox
+77              HomeMadeWaffles        Falco, Fox
+78              Lovage                 Fox, Sheik
+79              MilkMan                Fox
+80              Tai                    Marth
+81              Rik                    Fox, Falco
+82              Rocky                  Falco
+83              Jerry                  Fox
+84              iBDW                   Fox
+85              KPAN                   Falco
+86              Mojo                   Fox
+87              $mike                  Captain Falcon
+88              Darktooth              Fox
+89              Zgetto                 Fox
+90              Blea Gelo              Luigi
+91              Kaeon                  Fox
+92              Bobby Frizz            Fox
+93              Iceman                 Marth
+94              L                      Fox
+95              NMW                    Captain Falcon
+96              Moky                   Fox
+97              Legend                 Jigglypuff, Peach
+98              Zealous5000            Marth, Fox
+99              Ralph                  Falco, Fox
+100             2Saint                 Jigglypuff
+101             Reeve                  Marth
+102             Bananas                Ice Climbers
+103             Nightmare              Marth
+104             Vro                    Marth
+```

@@ -1,0 +1,35 @@
+```
+Rank            Smasher                Mains
+33              Firo                   Ness, Link
+34              KD3                    Pikachu, Captain Falcon, Jigglypuff
+35              Kort                   Pikachu, Link
+36              Robert                 Pikachu, Kirby
+37              Czar                   Mario, Luigi
+38              CTG                    Jigglypuff
+39              sHEERmADNESS           Yoshi
+40              Star King              Fox, Kirby
+41              Kimimaru               Mario
+42              Combo Blaze            Captain Falcon
+43              HAMMERHEART            Samus, Jigglypuff
+44              Janco                  Pikachu
+45              Darkhorse              Captain Falcon, Jigglypuff
+46              Cobr                   Captain Falcon, Samus
+47              Yunque                 Jigglypuff
+48              Shears                 Yoshi, Luigi
+49              Loto                   Captain Falcon
+50              NaCl                   Kirby
+51              Janitor                Captain Falcon, Yoshi, Pikachu
+52              Marbles                Pikachu
+53              clubbadubba            Donkey Kong
+54              Yobolight              Yoshi
+55              Horbie                 Kirby
+56              Nintendude             Fox
+57              Finio                  Pikachu
+58              Daniel                 Captain Falcon, Pikachu
+59              hydra                  Mario
+60              Madrush                Captain Falcon
+61              Lorenzo                Donkey Kong
+62              supa                   Captain Falcon
+63              SKG                    Pikachu, Kirby
+64              Stevie G               Fox, Kirby
+```

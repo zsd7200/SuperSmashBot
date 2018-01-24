@@ -1,0 +1,38 @@
+```
+Rank            Smasher                Mains
+36              Rishi                  Marth, Fox
+37              Bladewise              Peach
+38              Prince Abu             Jigglypuff
+39              Amsah                  Sheik
+40              Santiago               Falco, Sheik
+41              Professor Pro          Fox
+42              Slox                   Fox, Falco
+43              Gahtzu                 Captain Falcon
+44              Android                Sheik
+45              Hax                    Fox
+46              Kage                   Ganondorf, Captain Falcon
+47              Captain Smuckers       Captain Falcon
+48              MacD                   Peach
+49              Ginger                 Falco
+50              Laudandus              Sheik
+51              Kels                   Fox, Sheik, Falco, Marth
+52              Captain Faceroll       Sheik
+53              ARMY                   Ice Climbers, Jigglypuff
+54              Junebug                Sheik
+55              Medz                   Fox, Marth, Falco
+56              Abate                  Luigi
+57              Chillin                Fox
+58              Squid                  Falco
+59              Az                     Peach, Falco
+60              Overtriforce           Sheik
+61              Spark                  Sheik
+62              Ka-Master              Luigi, Captain Falcon
+63              Trulliam               Falco
+64              Cactuar                Marth, Fox
+65              Redd                   Fox, Marth
+66              Zhu                    Falco, Fox
+67              Darkatma               Sheik, Peach, Fox
+68              Drephen                Sheik
+69              FatGoku                Fox
+70              Kalamazhu              Peach
+```

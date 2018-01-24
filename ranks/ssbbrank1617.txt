@@ -1,0 +1,23 @@
+```
+Rank            Smasher                Mains
+1               Nairo                  Meta Knight
+2               ADHD                   Diddy Kong
+3               Salem                  Zero Suit Samus
+4               Vinnie                 Ice Climbers
+5               V115                   Zero Suit Samus
+6               MVD                    Snake
+7               ANTi                   Meta Knight
+8               Player-1               Diddy Kong
+9               Mikeray4               Snake
+10              Seagull Joe            Wolf
+11              Rich Brown             Olimar
+12              Mew2King               Meta Knight
+13              Atomsk                 King Dedede, Ice Climbers, Falco
+14              Ally                   Snake
+15              Cody                   Meta Knight
+16              Hinkage                Meta Knight, Kirby
+17              Mr. R                  Marth
+18              Meekspeedy             Sonic
+19              Pelca                  Falco, Meta Knight
+20              Gagga                  Snake, Meta Knight
+```
