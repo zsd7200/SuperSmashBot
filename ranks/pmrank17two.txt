@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+26              Pikmon                 Mr. Game & Watch
+27              Junebug                Diddy Kong, Sheik, Ganondorf
+28              Boiko                  Meta Knight, Marth, Ness
+29              Chevy                  Samus
+30              Silver                 Falco, Fox, Marth, Sheik, Meta Knight
+31              Envy                   Ike, Wario, Diddy Kong
+32              Luck                   Diddy Kong
+33              JFyst                  Sonic
+34              Yung Quaff             Meta Knight, Ivysaur, Mewtwo
+35              Morsecode762           Samus
+36              Fearless               Lucario
+37              Filthy Casual          Wolf
+38              Dingo                  Charizard
+39              Goode                  Sonic
+40              JJK                    Mr. Game & Watch
+41              MorKs                  Wario
+42              ilovebagelz            Luigi
+43              XYK                    Luigi
+44              Strong Bad             Wario
+45              Flarp                  Luigi
+46              Bongo                  Captain Falcon
+47              LoyaL                  Mr. Game & Watch
+48              Tealz                  Meta Knight
+49              Kumatora               Ness
+50              Mask                   Meta Knight, Charizard
+```

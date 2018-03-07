@@ -113,7 +113,7 @@ client.on('message', message => {
     // display help text
     if(command === "help")
     {
-        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:397873462049374219>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb meme' to see a list of what meme messages I will respond to!\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
+        message.channel.send("Hello, I'm Peach!\nSuper Smash Bot is a work in progress!\nRight now, I can do a couple things!\n\nI can get highlights from lots of different sources! <:turnipyay:420965853723492353>\nFor GRSmash videos, type 'ssb gr [term]', for GRTr4sh videos, type 'ssb gr4 [term]', for Mr. Pickle videos, type 'ssb pickle [term]', for YEET Smash videos, type 'ssb yeet [term]', for Dragon Smash videos, type 'ssb drag [term]', and for VGBC Highlights videos, type 'ssb vgbc [term]'.\nI can also get the first result on YouTube if you type 'ssb vod [term]'!\n\nType 'ssb turnip' to pull a Vegetable!\n\nType 'ssb meme' to see a list of what meme messages I will respond to!\n\nType 'ssb smasher [smashtag]' to get info on a top player!\n\nType 'ssb rank [game] [year]' for official player rankings!\nA couple notes about this feature:\nFor Smash 4, just type the number of PGR instead of the year.\nIf no year is typed, the latest rankings will be sent.\nAcceptable parameters will be shown if you just type 'ssb rank'.\n\nFeatures are still being added, so please be patient with me! Thank you!");
     }
     
     // if the command is 'vod' bot will return first result on youtube
@@ -258,14 +258,14 @@ client.on('message', message => {
         let turnip = "<:turniphappy:397873462103769088>! That's a 60.345% chance!";
         
         // set the correct turnip emoji for the right pulls
-        if (1 <= pull && pull && pull <= 35) turnip = "<:turniphappy:397873462103769088>! That's a 60.345% chance!";
-        else if (36 <= pull && pull <= 41) turnip = "<:turnipsrs:397873461839790081>! That's a 10.345% chance!";
-        else if (42 <= pull && pull <= 46) turnip = "<:turnipdisappoint:397873461847916565>! That's a 8.621% chance!";
-        else if (47 <= pull && pull <= 49) turnip = "<:turnipshock:397873461982396437>! That's a 5.172% chance!";
-        else if (50 <= pull && pull <= 52) turnip = "<:turnipyay:397873462049374219>! That's a 5.172% chance!";
-        else if (53 <= pull && pull <= 56) turnip = "<:turnipwink:397873461847916556>! That's a 6.897% chance!";
-        else if (pull == 57) turnip = "<:turnipdot:397873462083059712>! That's a 1.724% chance!";
-        else if (pull == 58) turnip = "<:turnipstitch:397873462330523648>! That's a 1.724% chance!";
+        if (1 <= pull && pull && pull <= 35) turnip = "<:turniphappy:420965853778018304>! That's a 60.345% chance!";
+        else if (36 <= pull && pull <= 41) turnip = "<:turnipsrs:420965853517971457>! That's a 10.345% chance!";
+        else if (42 <= pull && pull <= 46) turnip = "<:turnipdisappoint:420965853761372160>! That's a 8.621% chance!";
+        else if (47 <= pull && pull <= 49) turnip = "<:turnipshock:420965853870161920>! That's a 5.172% chance!";
+        else if (50 <= pull && pull <= 52) turnip = "<:turnipyay:420965853723492353>! That's a 5.172% chance!";
+        else if (53 <= pull && pull <= 56) turnip = "<:turnipwink:420965853773824030>! That's a 6.897% chance!";
+        else if (pull == 57) turnip = "<:turnipdot:420965853769760768>! That's a 1.724% chance!";
+        else if (pull == 58) turnip = "<:turnipstitch:420965853522034711>! That's a 1.724% chance!";
         
         // return a message
         return message.channel.send("You pulled " + turnip);
@@ -394,9 +394,9 @@ client.on('message', message => {
 			
             else if ((game == "projectm" || game == "pm")) // checking for year at the moment is unnecessary, as this is the latest yearly ranking
             {
-                return message.channel.send("2017 PMRank");
-                //message.channel.send(pmrank17one);
-                //return message.channel.send(pmrank17two);
+                message.channel.send("2017 PMRank");
+                message.channel.send(pmrank17one);
+                return message.channel.send(pmrank17two);
             }
             
             else if ((game == "smash4" || game == "sm4sh") && year == "1")
@@ -504,8 +504,8 @@ function loadRanks()
     pmrankTwo = fs.readFileSync("ranks/pmrankTwo.txt", {"encoding": "utf-8"});
 	
     // 2017 pmrank
-    //pmrank17one = fs.readFileSync("ranks/pmrank17one.txt", {"encoding": "utf-8"});
-    //pmrank17rwo = fs.readFileSync("ranks/pmrank17two.txt", {"encoding": "utf-8"});
+    pmrank17one = fs.readFileSync("ranks/pmrank17one.txt", {"encoding": "utf-8"});
+    pmrank17two = fs.readFileSync("ranks/pmrank17two.txt", {"encoding": "utf-8"});
     
     // pgr v1
     pgr1one = fs.readFileSync("ranks/pgr1one.txt", {"encoding": "utf-8"});

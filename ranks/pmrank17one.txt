@@ -1,0 +1,28 @@
+```
+Rank            Smasher                Mains
+1               ThundeRzReiGN          Donkey Kong, Captain Falcon, Ganondorf
+2               Malachi                Sheik, Peach
+3               Sosa                   Wario
+4               Switch                 Wolf
+5               Flipp                  Snake
+6               Fuzz                   Mewtwo
+7               HyperFlame             Lucas
+8               techboy                Ice Climbers
+9               dvd                    Toon Link
+10              Sothe                  Ivysaur
+11              lloD                   Peach
+12              Kycse                  Charizard
+13              EmuKiller              Meta Knight, Mewtwo
+14              StereoKiDD             Ness
+15              Phresh                 Ice Climbers
+16              BaconPancakes          Diddy Kong, Donkey Kong
+17              Boringman              Meta Knight, Mario, Sonic, Mewtwo
+18              Anther                 Pikachu
+19              Aidan                  Zero Suit Samus
+20              Blank                  Zero Suit Samus
+21              Twisty                 Wario
+22              Dirtboy                Squirtle, Peach
+23              The Doctor             Mario
+24              Gallo                  Mario
+25              Jose V                 Ness
+```
