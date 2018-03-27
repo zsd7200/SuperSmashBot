@@ -128,7 +128,7 @@ client.on('message', message => {
         search(searchTerm, opts, function(err, results) {
             if(err) return console.log(err);
             
-            return message.channel.send(results[0].link + "\nIf this is not what you were looking for, please try to be a bit more specific! <:turniphappy:397873462103769088>");
+            return message.channel.send(results[0].link + "\nIf this is not what you were looking for, please try to be a bit more specific! <:turniphappy:420965853778018304>");
         });
     }
     
@@ -255,7 +255,7 @@ client.on('message', message => {
     {
         // get a random number from 1 - 58 and set the default turnip
         let pull = Math.floor((Math.random() * 58) + 1);
-        let turnip = "<:turniphappy:397873462103769088>! That's a 60.345% chance!";
+        let turnip = "<:turniphappy:420965853778018304>! That's a 60.345% chance!";
         
         // set the correct turnip emoji for the right pulls
         if (1 <= pull && pull && pull <= 35) turnip = "<:turniphappy:420965853778018304>! That's a 60.345% chance!";
